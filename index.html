@@ -5,14 +5,265 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Arun Ray</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner row middle">
+        <a href="#">
+          <div class="header-logo">
+          </div>
+        </a>
+        <nav class="site-nav">
+          <ul class="nav-list row middle">
+            <li class="list-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="list-item"><a href="#" class="nav-link">Features</a></li>
+            <li class="list-item"><a href="#" class="nav-link">Elements</a></li>
+            <li class="list-item"><a href="#" class="nav-link">Membership</a></li>
+            <li class="list-item hover-item"><a href="#" class="nav-link">More <i class='bx bx-chevron-down'></i></a>
+            <ul class="dropdown">
+              <li class="dropdown-content"><a href="#" class="dropdown-link">Tags</a></li>
+              <li class="dropdown-content"><a href="#" class="dropdown-link">Authors</a></li>
+              <li class="dropdown-content"><a href="#" class="dropdown-link">Monthly archive</a></li>
+              <li class="dropdown-content"><a href="#" class="dropdown-link">Yearly archive</a></li>
+              <li class="dropdown-content"><a href="#" class="dropdown-link">Contact</a></li>
+              <li class="dropdown-content"><a href="#" class="dropdown-link">Get theme</a></li>
+            </ul>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-btns row middle">
+          <a href="#" class="sign-btn">Sign In</a>
+          <a href="#" class="sign-btn">Sign Up</a>
+          <button id="searchBtn" class="serach-btn"><i class='bx bx-search-alt-2' ></i></button>
+          <button id="modeBtn" class="mode-btn"><i class='bx bx-moon' ></i></button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="hero-part">
+    <div class="container">
+      <div class="hero-inner row between">
+        <div class="hero-desc">
+          <h2 class="hero-title">Hay, I am Arun</h2>
+          <p class="hero-text">An architect, software developer, YouTuber and keynote speaker. On this site I write about my learning and experience.</p>
+          <form class="hero-form row">
+            <input type="email" placeholder="Your email adress" required>
+            <button type="submit" class="hero-btn">Subscribe</button>
+          </form>
+          <div class="socials row middle">
+            <p class="socials-par">Follow:</p>
+            <ul class="socials-list row middle">
+              <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-twitter' ></i></a></li>
+              <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-facebook'></i></a></li>
+              <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-instagram' ></i></a></li>
+              <li class="socials-item"><a href="#" class="socials-link"><i class='bx bxl-github' ></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img class="img-hero" src="images/hero-img.jpg" alt="hero-img">
+        </div>
+      </div>
+    </div>
+    <div class="circle">
+      <div class="circle2">
+      </div>
+    </div>
+  </section>
 
+  <section id="modalBox" class="modal-box">
+    <button id="closeBtn" class="close-btn"><i class='bx bx-x' ></i></button>
+    <input type="text" placeholder="Type to search">
+    <p class="modal-text">Press ESC to close.</p>
+    <div class="modal-inner">
+      <h4 class="modal-title">See posts by Popular tags</h4>
+      <ul class="modal-list row">
+        <li class="modal-item"><a href="#" class="modal-link">Inspiration</a></li>
+        <li class="modal-item"><a href="#" class="modal-link">Lifestyle</a></li>
+        <li class="modal-item"><a href="#" class="modal-link">Nature</a></li>
+        <li class="modal-item"><a href="#" class="modal-link">Health</a></li>
+        <li class="modal-item"><a href="#" class="modal-link">Travel</a></li>
+        <li class="modal-item"><a href="#" class="modal-link">Food</a></li>
+        <li class="modal-item"><a href="#" class="modal-link">Technology</a></li>
+      </ul>
+    </div>
+  </section>
+  <section id="posts">
+    <div class="container">
+      <div class="posts-inner">
+        <h3 class="posts-title">Featured posts</h3>
+        <ul class="posts-list">
+          <li class="posts-cards row between">
+            <img src="images/img1.jpg" alt="img" class="posts-img" >
+            <div class="posts-desc">
+              <div class="rating row">
+                <p class="rating-text">Lifestyle</p>
+                <i class='bx bxs-star' ></i>
+              </div>
+              <h4 class="posts-heading">Self-observation is the first step of inner unfolding</h4>
+              <p class="posts-text">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+              <p class="timing">May 02, 2021 * 3 min read * Public</p>
+            </div>
+          </li>
+          <li class="posts-cards row between">
+            <img src="images/img2.jpg" alt="img" class="posts-img">
+            <div class="posts-desc">
+              <div class="rating row">
+                <p class="rating-text">Health</p>
+                <i class='bx bxs-star' ></i>
+              </div>
+              <h4 class="posts-heading">The mind and body are not separate. what affects one, affects the other</h4>
+              <p class="posts-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+              <p class="timing">Mar 28, 2021 * 3 min read * Paid</p>
+            </div>
+          </li>
+        </ul>
+        <h3 class="posts-title">Latest Posts</h3>
+        <ul class="posts-list">
+          <li class="posts-cards row between">
+            <img src="images/img3.jpg" alt="img" class="posts-img" >
+            <div class="posts-desc">
+              <div class="rating row">
+                <p class="rating-text">Nature</p>
+              </div>
+              <h4 class="posts-heading">Autumn is a second spring when every leaf is a flower</h4>
+              <p class="posts-text">She then expatiated very warmly upon the advantages I should reap from her plan; talked in a high style of my future grandeur; assured me how heartily I should...</p>
+              <p class="timing">May 02, 2021 * 4 min read * Public</p>
+            </div>
+          </li>
+          <li class="posts-cards row between">
+            <img src="images/img4.jpg" alt="img" class="posts-img">
+            <div class="posts-desc">
+              <div class="rating row">
+                <p class="rating-text pink">Travel</p>
+              </div>
+              <h4 class="posts-heading">Never let your memories be greater than your dreams</h4>
+              <p class="posts-text">Before long the searchlight discovered some distance away a schooner with all sails set, apparently the same vessel which had been noticed earlier in the evening. The...</p>
+              <p class="timing">May 02, 2021 * 4 min read * Members</p>
+            </div>
+          </li>
+        </ul>
+      <aside class="site-aside row between">
+        <div class="aside-box">
+          <h4 class="aside-title">Subscribe to premium membership plan</h4>
+          <p class="aside-par">Get access to all premium content and enjoy reading without any distraction</p>
+          <a href="#" class="aside-link">Compare plan <i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+        <div class="tarif">
+          <p class="tarif-text">YEARLY</p>
+          <h4 class="tarif-num"><span>$</span>50</h4>
+          <p class="tarif-price tarif-discount">Save  17%</p>
+          <button class="tarif-btn">Subscribe Now</button>
+        </div>
+        <div class="tarif">
+          <p class="tarif-text">MONTHLY</p>
+          <h4 class="tarif-num"> <span>$</span>5</h4>
+          <p class="tarif-price"></p>
+          <button class="tarif-btn">Subscribe Now </button>
+        </div>
+      </aside>
+      <ul class="posts-list">
+        <li class="posts-cards row between">
+          <img src="images/img5.jpg" alt="img" class="posts-img" >
+          <div class="posts-desc">
+            <div class="rating row">
+              <p class="rating-text">Lifestyle</p>
+              <i class='bx bxs-star' ></i>
+            </div>
+            <h4 class="posts-heading">Self-observation is the first step of inner unfolding</h4>
+            <p class="posts-text">Almost instantly the whole truth of the transaction seemed to rush upon her mind, and her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+            <p class="timing">May 02, 2021 * 3 min read * Public</p>
+          </div>
+        </li>
+        <li class="posts-cards row between">
+          <img src="images/img2.jpg" alt="img" class="posts-img">
+          <div class="posts-desc">
+            <div class="rating row">
+              <p class="rating-text">Health</p>
+              <i class='bx bxs-star' ></i>
+            </div>
+            <h4 class="posts-heading">The mind and body are not separate. what affects one, affects the other</h4>
+            <p class="posts-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+            <p class="timing">Mar 28, 2021 * 3 min read * Paid</p>
+          </div>
+        </li>
+        <li class="posts-cards row between">
+          <img src="images/img6.jpg" alt="img" class="posts-img">
+          <div class="posts-desc">
+            <div class="rating row">
+              <p class="rating-text">Health</p>
+              <i class='bx bxs-star' ></i>
+            </div>
+            <h4 class="posts-heading">The mind and body are not separate. what affects one, affects the other</h4>
+            <p class="posts-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+            <p class="timing">Mar 28, 2021 * 3 min read * Paid</p>
+          </div>
+        </li>
+        <li class="posts-cards row between">
+          <img src="images/img7.jpg" alt="img" class="posts-img">
+          <div class="posts-desc">
+            <div class="rating row">
+              <p class="rating-text">Health</p>
+              <i class='bx bxs-star' ></i>
+            </div>
+            <h4 class="posts-heading">The mind and body are not separate. what affects one, affects the other</h4>
+            <p class="posts-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+            <p class="timing">Mar 28, 2021 * 3 min read * Paid</p>
+          </div>
+        </li>
+        <li class="posts-cards row between">
+          <img src="images/img8.jpg" alt="img" class="posts-img">
+          <div class="posts-desc">
+            <div class="rating row">
+              <p class="rating-text">Health</p>
+              <i class='bx bxs-star' ></i>
+            </div>
+            <h4 class="posts-heading">The mind and body are not separate. what affects one, affects the other</h4>
+            <p class="posts-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+            <p class="timing">Mar 28, 2021 * 3 min read * Paid</p>
+          </div>
+        </li>
+        <li class="posts-cards row between">
+          <img src="images/img2.jpg" alt="img" class="posts-img">
+          <div class="posts-desc">
+            <div class="rating row">
+              <p class="rating-text">Health</p>
+              <i class='bx bxs-star' ></i>
+            </div>
+            <h4 class="posts-heading">The mind and body are not separate. what affects one, affects the other</h4>
+            <p class="posts-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, and from the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+            <p class="timing">Mar 28, 2021 * 3 min read * Paid</p>
+          </div>
+        </li>
+      </ul>
+      </div>
+    </div>
+  </section>
+
+ <div id="subscribe">
+  <div class="container">
+    <div class="sunscribe-inner">
+      <img class="subscribe-img" src="images/subscribe-img.png" alt="subscribe-img" width="120" height="54">
+      <h3 class="subscribe-title">Subscribe to newsletter</h3>
+      <p class="sunbcribe-text">Stay up to date! Get all the latest posts delivered straight to your inbox.</p>
+      <form class="subscribe-form">
+        <input class="sub-input" type="name" placeholder="Yout name" required>
+        <input class="sub-input" type="emai" placeholder="Your email address" required>
+        <button type="submit" class="subscribe-form-btn">Subscribe</button>
+      </form>
+    </div>
+  </div>
+ </div>
   <script src="js/main.js"></script>
 </body>
 
