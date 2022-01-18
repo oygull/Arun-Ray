@@ -266,6 +266,9 @@ input[type="email"]{
   font-weight: 500;
   border: none;
 }
+.hero-btn:hover{
+  background-color: #0036a1;
+}
 .hero-desc{
   display: flex;
   flex-direction: column;
