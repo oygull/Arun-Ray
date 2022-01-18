@@ -657,7 +657,16 @@ input[type='text']{
   margin-top: 80px;
 }
 .footer-inner{
-  padding: 64px 10px;
+  padding: 64px 10px 30px 10px;
+}
+.purple{
+  background-color: #bc4fe2;
+}
+.green{
+  background-color: #479139;
+}
+.yellow{
+  background-color: #a7772a;
 }
 .footer-logo{
   width: 100px;
@@ -692,4 +701,10 @@ input[type='text']{
 .footer-title{
   margin-bottom: 30px;
   font-size: 14px;
+}
+.footer-end{
+  margin-bottom: 50px;
+}
+.socials-link:hover{
+  color: #0057ff;
 }
