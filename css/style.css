@@ -225,7 +225,8 @@ color: #0057ff;
   width: 400px;
   height: 400px;
   position: relative;
-  top: 20px;
+  top: 18px;
+  right: 80px;
 }
 .hero-title{
   font-size: 64px;
